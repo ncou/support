@@ -50,6 +50,8 @@ use InvalidArgumentException;
 
 //https://docs.phalcon.io/4.0/fr-fr/api/phalcon_security#security-random
 
+//https://github.com/phalcon/cphalcon/blob/f1315049b46c0e3d348c6446e592c071b901f011/phalcon/Security/Random.zep
+
 /*
 $random = new Random();
 
