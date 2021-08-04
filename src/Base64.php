@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Chiron\Support;
 
 use InvalidArgumentException;
@@ -17,6 +19,7 @@ use InvalidArgumentException;
 // https://github.com/breenie/base62/blob/master/src/Kurl/Maths/Encode/Driver/PurePhpEncoder.php
 // https://gist.github.com/jgrossi/a4eb21bbe00763d63385
 // https://github.com/vinkla/base62/blob/master/src/Base62.php
+// https://github.com/kierandg/laravel-url62-uuid/blob/master/src/Gponster/Uuid/Base62.php
 
 // TODO : sinon utiliser dechex et hexdec en repmplacement de la fonction Base62 pour réduire les integers
 
@@ -101,11 +104,11 @@ final class Base64
         return false;
       }
 
-      // Convert Base64 to Base64URL by replacing “+” with “-” and “/” with “_”
-      $url = strtr($b64, '+/', '-_');
+      // Convert Base64 to Base64 "url safe" by replacing "+"" with "-"" and "/"" with "_"
+      $safe = strtr($b64, '+/', '-_');
 
       // Remove padding character from the end of line and return the Base64URL result
-      return rtrim($url, '=');
+      return rtrim($safe, '=');
     }
 
     /**
