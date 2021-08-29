@@ -7,6 +7,7 @@ use InvalidArgumentException;
 //https://github.com/top-think/think-helper/blob/3.0/src/helper/Str.php
 //https://github.com/nette/utils/blob/master/src/Utils/Strings.php
 //https://github.com/illuminate/support/blob/master/Str.php
+//https://github.com/fuelphp/common/blob/master/src/Str.php
 
 final class Str
 {

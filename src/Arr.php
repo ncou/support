@@ -7,6 +7,7 @@ use InvalidArgumentException;
 //https://github.com/top-think/think-helper/blob/3.0/src/helper/Arr.php
 //https://github.com/illuminate/collections/blob/master/Arr.php
 //https://github.com/nette/utils/blob/master/src/Utils/Arrays.php
+//https://github.com/fuelphp/common/blob/master/src/Arr.php
 
 final class Arr
 {
