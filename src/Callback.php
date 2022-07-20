@@ -4,6 +4,10 @@ namespace Chiron\Support;
 
 //https://github.com/getsentry/sentry-php/blob/79f2db68cd556fdb5600b7425a73712c40a2eff1/src/Serializer/AbstractSerializer.php#L299
 
+// TODO : ajouter une possibilité de faire un safe invoke en wrappant l'appel dans un error handler :
+// https://github.com/nette/utils/blob/master/src/Utils/Callback.php#L26
+// https://github.com/nette/safe/blob/7dff38894a027d04a22044933c2713f53154cc48/src/Safe.php#L2486
+
 final class Callback
 {
     /**

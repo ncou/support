@@ -8,6 +8,7 @@ use InvalidArgumentException;
 //https://github.com/illuminate/collections/blob/master/Arr.php
 //https://github.com/nette/utils/blob/master/src/Utils/Arrays.php
 //https://github.com/fuelphp/common/blob/master/src/Arr.php
+//https://github.com/yiisoft/arrays/blob/master/src/ArrayHelper.php
 
 final class Arr
 {

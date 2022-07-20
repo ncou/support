@@ -4,6 +4,10 @@ namespace Chiron\Support;
 
 use InvalidArgumentException;
 
+//https://github.com/laminas/laminas-math/blob/3.6.x/src/Rand.php
+
+//https://github.com/swoft-cloud/swoft-stdlib/blob/master/src/Concern/RandomStringTrait.php
+
 // BASE62 :
 // https://snipplr.com/view/22246/base62-encode--decode
 // https://programanddesign.com/php/base62-encode/

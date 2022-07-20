@@ -29,5 +29,10 @@
         "phpstan": "phpstan analyse --ansi",
         "check-style": "phpcs src tests",
         "fix-style": "phpcbf src tests"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
